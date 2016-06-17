@@ -10,7 +10,7 @@
                 <div class="panel-body">
                     @foreach ($posts as $post)
 
-                        <h2>{{ $post->title }}</h2>
+                        <h2>{{ $post->title }} <small>{{ $post->likes()->count() }} <i class="fa fa-thumbs-up"></i></small></h2>
 
                         @foreach ($post->likes as $user)
                             {{ $user->name }} likes this !<br>
