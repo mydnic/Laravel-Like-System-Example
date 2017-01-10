@@ -2,8 +2,8 @@
 
 namespace App;
 
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model
 {
@@ -15,7 +15,8 @@ class Post extends Model
     public function getIsLikedAttribute()
     {
         $like = $this->likes()->whereUserId(Auth::id())->first();
-        return (!is_null($like)) ? true : false;
+
+        return (! is_null($like)) ? true : false;
     }
 
     // public function getLikesCountAttribute()

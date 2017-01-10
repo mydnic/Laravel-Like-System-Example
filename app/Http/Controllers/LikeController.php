@@ -12,6 +12,7 @@ class LikeController extends Controller
         // here you can check if product exists or is valid or whatever
 
         $this->handleLike('App\Product', $id);
+
         return redirect()->back();
     }
 
@@ -20,6 +21,7 @@ class LikeController extends Controller
         // here you can check if product exists or is valid or whatever
 
         $this->handleLike('App\Post', $id);
+
         return redirect()->back();
     }
 
