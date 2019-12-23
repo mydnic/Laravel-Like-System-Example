@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "851ac5c5a2417ca1de7f6460a87f8837",
+    "content-hash": "adb064f37f5997bf98fdbc1cddc78c3c",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -4139,7 +4139,7 @@
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "v4.4.1",
+            "version": "v4.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dom-crawler.git",
