@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "42433aa6ee2380663629484fcf42b0c9",
+    "content-hash": "03e1257534be7cab9af9926fb87fc77a",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -4167,16 +4167,16 @@
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "v4.4.4",
+            "version": "v4.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dom-crawler.git",
-                "reference": "b66fe8ccc850ea11c4cd31677706c1219768bea1"
+                "reference": "11dcf08f12f29981bf770f097a5d64d65bce5929"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/b66fe8ccc850ea11c4cd31677706c1219768bea1",
-                "reference": "b66fe8ccc850ea11c4cd31677706c1219768bea1",
+                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/11dcf08f12f29981bf770f097a5d64d65bce5929",
+                "reference": "11dcf08f12f29981bf770f097a5d64d65bce5929",
                 "shasum": ""
             },
             "require": {
@@ -4224,7 +4224,7 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "https://symfony.com",
-            "time": "2020-01-04T13:00:46+00:00"
+            "time": "2020-02-29T10:05:28+00:00"
         },
         {
             "name": "theseer/tokenizer",
